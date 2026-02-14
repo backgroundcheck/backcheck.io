@@ -1,1 +1,241 @@
 
+{
+  "repo_notes": [
+    {
+      "content": ""
+    }
+  ],
+  "pages": [
+    {
+      "title": "Overview",
+      "purpose": "Introduce the backcheck.io verification system, summarizing its purpose as a document verification platform and high-level architecture",
+      "page_notes": [
+        {
+          "content": ""
+        }
+      ]
+    },
+    {
+      "title": "Core Architecture",
+      "purpose": "Explain the fundamental architectural patterns and core system components that form the backbone of the platform",
+      "page_notes": [
+        {
+          "content": ""
+        }
+      ]
+    },
+    {
+      "title": "Request Routing System",
+      "purpose": "Detail the central request dispatching mechanism that routes HTTP requests to appropriate handlers based on parameters",
+      "parent": "Core Architecture",
+      "page_notes": [
+        {
+          "content": ""
+        }
+      ]
+    },
+    {
+      "title": "Access Control & Security",
+      "purpose": "Document the access control mechanisms, user authentication, and security measures implemented across the platform",
+      "parent": "Core Architecture",
+      "page_notes": [
+        {
+          "content": ""
+        }
+      ]
+    },
+    {
+      "title": "File Management System",
+      "purpose": "Comprehensive guide to the file upload, processing, and storage capabilities of the platform",
+      "page_notes": [
+        {
+          "content": ""
+        }
+      ]
+    },
+    {
+      "title": "Server-Side Upload Processing",
+      "purpose": "Deep dive into the PHP-based file upload handlers, validation, and server-side processing logic",
+      "parent": "File Management System",
+      "page_notes": [
+        {
+          "content": ""
+        }
+      ]
+    },
+    {
+      "title": "Client-Side Upload Components",
+      "purpose": "Document the jQuery-based file upload widgets, drag-and-drop functionality, and client-side validation",
+      "parent": "File Management System",
+      "page_notes": [
+        {
+          "content": ""
+        }
+      ]
+    },
+    {
+      "title": "User Management & Authentication",
+      "purpose": "Complete guide to user registration, authentication, session management, and user data services",
+      "page_notes": [
+        {
+          "content": ""
+        }
+      ]
+    },
+    {
+      "title": "Authentication APIs",
+      "purpose": "Document the token-based authentication system, user login/logout, and API access control mechanisms",
+      "parent": "User Management & Authentication",
+      "page_notes": [
+        {
+          "content": ""
+        }
+      ]
+    },
+    {
+      "title": "User Data Services",
+      "purpose": "Explain the APIs for retrieving user information, company data, and verification statistics",
+      "parent": "User Management & Authentication",
+      "page_notes": [
+        {
+          "content": ""
+        }
+      ]
+    },
+    {
+      "title": "Verification & Case Management",
+      "purpose": "Core business logic for managing background verification cases, checks, and the complete verification workflow",
+      "page_notes": [
+        {
+          "content": ""
+        }
+      ]
+    },
+    {
+      "title": "Case Management Dashboard",
+      "purpose": "User interfaces for viewing, filtering, and managing verification cases across different states and statuses",
+      "parent": "Verification & Case Management",
+      "page_notes": [
+        {
+          "content": ""
+        }
+      ]
+    },
+    {
+      "title": "Check Processing Interfaces",
+      "purpose": "Detailed interfaces for editing individual checks, updating statuses, and managing check-specific data",
+      "parent": "Verification & Case Management",
+      "page_notes": [
+        {
+          "content": ""
+        }
+      ]
+    },
+    {
+      "title": "Savvion Check System",
+      "purpose": "Specialized system for managing Savvion checks with detailed form processing, status management, and CRM integration",
+      "parent": "Verification & Case Management",
+      "page_notes": [
+        {
+          "content": ""
+        }
+      ]
+    },
+    {
+      "title": "Rating & Operations Engine",
+      "purpose": "Multi-functional backend engine handling ratings, validation, filters, invoicing, and various case operations",
+      "parent": "Verification & Case Management",
+      "page_notes": [
+        {
+          "content": ""
+        }
+      ]
+    },
+    {
+      "title": "External Integrations",
+      "purpose": "Documentation of all third-party system integrations including CRM, analytics, and data synchronization",
+      "page_notes": [
+        {
+          "content": ""
+        }
+      ]
+    },
+    {
+      "title": "Bitrix24 CRM Integration",
+      "purpose": "Complete integration with Bitrix24 for lead management, task creation, and CRM workflow automation",
+      "parent": "External Integrations",
+      "page_notes": [
+        {
+          "content": ""
+        }
+      ]
+    },
+    {
+      "title": "Google Services Integration",
+      "purpose": "Integration with Google Sheets for data analytics and automated reporting",
+      "parent": "External Integrations",
+      "page_notes": [
+        {
+          "content": ""
+        }
+      ]
+    },
+    {
+      "title": "Data Synchronization Systems",
+      "purpose": "Automated data transfer and synchronization between different databases and external systems",
+      "parent": "External Integrations",
+      "page_notes": [
+        {
+          "content": ""
+        }
+      ]
+    },
+    {
+      "title": "Automation & Scheduled Tasks",
+      "purpose": "Automated processes, cron jobs, and scheduled tasks that handle background operations and notifications",
+      "page_notes": [
+        {
+          "content": ""
+        }
+      ]
+    },
+    {
+      "title": "Demand Draft Automation",
+      "purpose": "Automated processing of demand draft requests, university integration, and email notification system",
+      "parent": "Automation & Scheduled Tasks",
+      "page_notes": [
+        {
+          "content": ""
+        }
+      ]
+    },
+    {
+      "title": "API Reference",
+      "purpose": "Complete API documentation covering all endpoints, request/response formats, and integration examples",
+      "page_notes": [
+        {
+          "content": ""
+        }
+      ]
+    },
+    {
+      "title": "General Purpose APIs",
+      "purpose": "Documentation for general utility APIs and debugging endpoints",
+      "parent": "API Reference",
+      "page_notes": [
+        {
+          "content": ""
+        }
+      ]
+    },
+    {
+      "title": "Static Assets & Branding",
+      "purpose": "Documentation of static resources, logos, banners, and branding assets used throughout the platform",
+      "page_notes": [
+        {
+          "content": ""
+        }
+      ]
+    }
+  ]
+}
